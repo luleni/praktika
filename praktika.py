@@ -14,12 +14,7 @@ class Numbers:
         return max(self.num1, self.num2)
 numbers = Numbers(3,5)
 numbers.output_info()
-numbers.change(2,4)
+numbers.change(10,4)
 numbers.output_info()
 print('Сумма чисел:', numbers.sum())
 print('Наибольшее число:', numbers.max())
-
-
-
-
-

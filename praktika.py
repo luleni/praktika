@@ -3,11 +3,11 @@ class Class:
         if value1 == 0 and value2 == 0:
             self.value1 = value1
             self.value2 = value2
-            print("Объект создан со значениями по умолчанию:")
+            print("--Объект создан со значениями по умолчанию--")
         else:
             self.value1 = value1
             self.value2 = value2
-            print("Объект создан с параметрами:")
+            print("--Объект создан с параметрами--")
     def __del__(self):
         print("Объект удален =(")
 
